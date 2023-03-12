@@ -50,13 +50,12 @@
                                 <h2 class="mt-6 text-xl font-semibold text-gray-900 dark:text-white">Repository Pattern:</h2>
                                 <p class="mt-4 text-sm leading-relaxed">
                                     O Repository Pattern é um padrão de projeto de software que separa a lógica de
-                                    negócios da lógica de acesso a dados. Ele fornece uma camada de abstração entre a
-                                    aplicação e a fonte de dados, o que torna o código mais fácil de manter e modificar.
+                                    negócios da lógica de acesso a dados (controller), o que torna o código mais fácil
+                                    de manter e modificar.
                                 </p>
                                 <p class="mt-4 text-sm leading-relaxed">
                                     Utilizando uma interface para definir o contrato entre o código da aplicação e o
-                                    acesso a dados, o Repository Pattern facilita a substituição de implementações de
-                                    acesso a dados. Ele ajuda a garantir que as interfaces sejam coesas e centradas no
+                                    acesso a dados, ele ajuda a garantir que as interfaces sejam coesas e centradas no
                                     cliente, o que permite definir interfaces de repositório específicas para cada
                                     cliente da aplicação.
                                 </p>
